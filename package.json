@@ -1,0 +1,11 @@
+{
+  "name": "komugi-instagram",
+  "version": "1.0.0",
+  "private": true,
+  "description": "こむぎ Instagram Reels 自動投稿（神社インスタグラムと同じGitHub Actions方式）",
+  "scripts": {
+    "post": "node scripts/post-reel-to-instagram.js",
+    "post:dry-run": "node scripts/post-reel-to-instagram.js --dry-run",
+    "refresh-token": "node scripts/refresh-instagram-token.js"
+  }
+}

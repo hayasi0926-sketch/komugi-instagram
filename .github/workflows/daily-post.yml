@@ -1,0 +1,44 @@
+name: Daily Instagram Reel post
+
+on:
+  schedule:
+    - cron: '0 12 * * *' # 12:00 UTC = 21:00 JST
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: instagram-post
+  cancel-in-progress: false
+
+jobs:
+  post:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Post Reel to Instagram
+        env:
+          IG_ACCESS_TOKEN: ${{ secrets.IG_ACCESS_TOKEN }}
+          IG_BUSINESS_ACCOUNT_ID: ${{ secrets.IG_BUSINESS_ACCOUNT_ID }}
+          GITHUB_RAW_BASE: ${{ secrets.GITHUB_RAW_BASE || format('https://raw.githubusercontent.com/{0}/main', github.repository) }}
+        run: node scripts/post-reel-to-instagram.js
+
+      - name: Commit manifest
+        run: |
+          if git diff --quiet posts/manifest.json; then
+            echo "manifest.json に変更なし"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add posts/manifest.json
+          git commit -m "Mark reel as posted (GitHub Actions)"
+          git pull --rebase
+          git push
+          

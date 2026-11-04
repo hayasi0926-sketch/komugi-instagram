@@ -39,7 +39,9 @@ class TTSResult:
 
 
 def _get_env(name: str, required: bool = True, default: Optional[str] = None) -> Optional[str]:
-    value = os.environ.get(name, default)
+    # GitHub Actions では未登録のSecretが「空文字」として渡されるため、空なら既定値を使う。
+    # 貼り付け時の前後の空白・改行も取り除く。
+    value = (os.environ.get(name) or "").strip() or default
     if required and not value:
         raise ElevenLabsError(
             f"環境変数 {name} が設定されていません。.env ファイルを確認してください。"

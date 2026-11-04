@@ -1,0 +1,64 @@
+{
+  "video_slug": "explain_purpose",
+  "video_title": "目的を伝えると答えが変わる",
+  "caption": "AIに質問したら答えてくれたのに、なんだか使いにくい答えだったこと、ない？🤔\n\n実はそれ、何に使うのかが伝わってないだけなんです。\n\n📝 目的を伝えるコツ\n・「〇〇に使いたい」と目的をひとこと添える\n・同じレシピでも「子どものお弁当用」と伝えると提案ががらっと変わる\n・「上司に説明するため」と伝えれば、説明しやすい形にしてくれる\n\n何のために聞くのかを伝えるだけで、ぐっと使える答えになります🐾\n\n保存しておいて、次にAIに質問するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイには、何のために聞くのかを伝えるといいって知ってた？",
+      "screen_text": "目的を伝える\nだけ⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "質問には答えてくれたのに、なんだか使いにくい答えだったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、何に使うのかが伝わってないだけなんだよね。",
+      "screen_text": "原因は「目的」の伝え忘れ",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「〇〇に使いたい」って目的をひとこと添えること。",
+      "screen_text": "目的をひとこと添える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "同じレシピでも、「子どものお弁当用」って伝えると、提案ががらっと変わるよ。",
+      "screen_text": "目的で提案が変わる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "「上司に説明するため」って伝えれば、説明しやすい形にしてくれるの。",
+      "screen_text": "使う場面も伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、何のために聞くのかを伝えるだけで、ぐっと使える答えになるの。",
+      "screen_text": "目的を伝えるだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

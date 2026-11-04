@@ -3,13 +3,19 @@
 こむぎ（AI_Komugiプロジェクト）のInstagram Reelsを、毎日21:00(JST)に自動投稿するリポジトリです。
 神社インスタグラム（jinja-instagram）と同じ「GitHub Actions方式」を採用しています。PCの電源が入っていなくても、GitHub側で自動実行されます。
 
-## 仕組み
+## 仕組み（2026年11月〜：台本から投稿まで全自動）
 
-1. `C:\AI_Komugi` 側（ローカルPC）で `scripts/auto_run.py` がこむぎの動画を自動生成する
-2. 生成された動画を、このリポジトリの `videos/` フォルダにアップロードする（公開URLが必要なため）
-3. `posts/manifest.json` に、その動画の投稿情報（キャプション・ハッシュタグ等）を `status:"ready"` として追加する
-4. 毎日21:00(JST)、GitHub Actions（`.github/workflows/daily-post.yml`）が自動的に起動し、`status:"ready"` の中で最もidの若い1件をInstagramに投稿する
-5. 投稿が成功すると、`posts/manifest.json` の該当エントリが `status:"posted"` に書き換えられ、ワークフロー自身がコミットする
+1. **台本の補充**：Claudeの週1回のスケジュールタスクが `script_queue/` の在庫を確認し、2週間分（14本）を切っていたら、既存と重ならないテーマで台本（ナレーション・画面テキスト・キャプション・ハッシュタグ）を書き足してpushする
+2. **動画づくり**：毎日21:00(JST)、GitHub Actions（`.github/workflows/daily-post.yml`）が起動し、`status:"ready"` の動画が2本未満なら、`script_queue/` の若い番号の台本から動画を作る（`generator/render_next.py`。ElevenLabsでナレーション → 字幕 → FFmpeg合成）
+   - できた動画は `videos/` に置かれ、`posts/manifest.json` に `status:"ready"` で追加される。使った台本は `script_queue/done/` に移る
+3. **投稿**：続けて、`status:"ready"` の中で最もidの若い1件をInstagramに投稿し、`status:"posted"` に書き換えてコミットする
+4. 投稿できる動画も台本もなくなった日は、ワークフローが失敗扱いになり、GitHubからメールが届く
+
+PC（`C:\AI_Komugi`）は不要です。投稿したくない動画は、manifest.json でその動画の `status` を `"blocked"` にすれば飛ばされます。
+
+### 台本ファイルの形式（`script_queue/NNN_slug.json`）
+
+`video_slug`・`video_title`・`caption`・`hashtags`・`script`（PC版 queue.json と同じビート配列）を持つJSON。ナレーションでは「AI」とアルファベットで書かず「エーアイ」とする（音声合成の読み間違い防止）。
 
 ## フォルダ構成
 
@@ -37,6 +43,9 @@ komugi-instagram/
 | `IG_ACCESS_TOKEN` | Instagramの長期アクセストークン | ○ |
 | `IG_BUSINESS_ACCOUNT_ID` | InstagramビジネスアカウントID | ○ |
 | `GITHUB_RAW_BASE` | 省略時は `https://raw.githubusercontent.com/<このリポジトリ>/main` が自動で使われる | 任意 |
+| `ELEVENLABS_API_KEY` | ElevenLabsのAPIキー（動画のナレーション生成用） | ○ |
+| `ELEVENLABS_VOICE_ID` | こむぎの声のVoice ID | ○ |
+| `ELEVENLABS_MODEL_ID` | 省略時は `eleven_multilingual_v2` | 任意 |
 | `GH_PAT` | トークン自動更新用（Secrets: Read and write 権限のfine-grained PAT） | token-refresh.ymlを使う場合のみ |
 
 ## ローカルでの動作確認

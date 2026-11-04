@@ -1,0 +1,64 @@
+{
+  "video_slug": "bullet_conditions",
+  "video_title": "条件は箇条書きで渡す",
+  "caption": "AIにいろいろ条件を書いたのに、いくつか無視されちゃったこと、ない？📝\n\n実はそれ、長い文章の中に条件が埋もれちゃっているからなんです。\n\n📝 条件を伝えるコツ\n・条件を一行ずつ、箇条書きで並べる\n・「予算は五千円まで」「駅から近い」のように短く書く\n・最後に「すべての条件を守って」と添えるのもおすすめ\n\n条件を箇条書きにするだけで、ちゃんと全部伝わりやすくなります🐾\n\n保存しておいて、次にAIにお願いするときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイへのお願い、条件を箇条書きにすると伝わりやすいって知ってた？",
+      "screen_text": "条件は\n箇条書きで⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "いろいろ条件を書いたのに、いくつか無視されちゃったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、長い文章の中に条件が埋もれちゃってるからなんだよね。",
+      "screen_text": "原因は「条件が埋もれる」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、条件を一行ずつ、箇条書きで並べること。",
+      "screen_text": "一行ずつ並べる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「予算は五千円まで」「駅から近い」みたいに、短く書くとはっきりするよ。",
+      "screen_text": "短くはっきり書く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "最後に「すべての条件を守って」って添えるのもおすすめなの。",
+      "screen_text": "「すべて守って」と添える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、条件を箇条書きにするだけで、ちゃんと全部伝わりやすくなるの。",
+      "screen_text": "箇条書きにするだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

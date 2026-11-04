@@ -1,0 +1,64 @@
+{
+  "video_slug": "proofreading",
+  "video_title": "自分の文章を添削してもらう",
+  "caption": "大事なメールを送る前に、変なところがないか不安になること、ない？📧\n\n実はそれ、AIにひと目見てもらうだけで、ぐっと安心できるんです。\n\n📝 添削してもらうコツ\n・「誤字や分かりにくいところを指摘して」と頼む\n・「目上の人に送るメールです」と相手を伝えると言葉づかいも見てくれる\n・全部書き直すより、直すところだけ教えてもらうと自分らしさが残る\n\n送る前にひと目見てもらうだけで、ぐっと安心して送れます🐾\n\n保存しておいて、次にメールを書くときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "メールや文章のチェック、エーアイに手伝ってもらえるって知ってた？",
+      "screen_text": "文章チェックも\nおまかせ⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "大事なメールを送る前に、変なところがないか不安になること、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、エーアイにひと目見てもらうだけで、ぐっと安心できるんだよね。",
+      "screen_text": "送る前にひと目",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「誤字や分かりにくいところを指摘して」って頼むこと。",
+      "screen_text": "指摘してもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「目上の人に送るメールです」って相手を伝えると、言葉づかいも見てくれるよ。",
+      "screen_text": "送る相手を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "全部書き直してもらうより、直すところだけ教えてもらうと、自分らしさが残るの。",
+      "screen_text": "直す所だけ教えてもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、送る前にひと目見てもらうだけで、ぐっと安心して送れるの。",
+      "screen_text": "送る前の確認でOK！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "video_slug": "honest_feedback",
+  "video_title": "「辛口で」と頼むと本音が聞ける",
+  "caption": "自分の企画や文章をAIに見てもらったら、ほめてばっかりで参考にならなかったこと、ない？🤔\n\n実はAIは、相手に合わせてやさしく答えがちなんです。\n\n📝 本音を聞くコツ\n・「遠慮しないで、弱いところを教えて」と頼む\n・「良いところと直すところを三つずつ」と頼むとバランスよく見てくれる\n・言われたことを全部聞く必要はなく、参考にするくらいでOK\n\nほめてもらうだけじゃなく、直すところも聞くと、ぐっと良くなります🐾\n\n保存しておいて、次にAIに意見を聞くときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに意見を聞くときは、「辛口で」って頼むといいって知ってた？",
+      "screen_text": "辛口で\nお願いする⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "自分の企画を見てもらったら、ほめてばっかりで参考にならなかったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、相手に合わせてやさしく答えがちなんだよね。",
+      "screen_text": "やさしく答えがち",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「遠慮しないで、弱いところを教えて」って頼むこと。",
+      "screen_text": "弱いところを聞く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「良いところと直すところを三つずつ」って頼むと、バランスよく見てくれるよ。",
+      "screen_text": "良い所と直す所を三つずつ",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "言われたことを全部聞く必要はなくて、参考にするくらいでいいの。",
+      "screen_text": "参考にするくらいでOK",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、ほめてもらうだけじゃなく、直すところも聞くと、ぐっと良くなるの。",
+      "screen_text": "直すところも聞く！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

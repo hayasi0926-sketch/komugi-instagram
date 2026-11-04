@@ -1,0 +1,64 @@
+{
+  "video_slug": "ask_me_questions",
+  "video_title": "「質問して」と頼むと答えが良くなる",
+  "caption": "AIに相談したいけど、何を伝えればいいか分からなくて、ふわっとした答えになっちゃうこと、ない？🤔\n\n実はそれ、必要な情報が足りてないだけなんです。\n\n📝 逆に質問してもらうコツ\n・「足りない情報があったら先に質問して」と添える\n・旅行の計画なら、予算や日数を向こうから聞いてくれる\n・質問に答えていくだけで、自分にぴったりの答えに近づく\n\n全部自分で考えなくても大丈夫。ひとこと添えるだけでぐっと的確になります🐾\n\n保存しておいて、次にAIに相談するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに「わたしに質問して」って頼むと、答えが良くなるって知ってた？",
+      "screen_text": "逆に質問して\nもらう⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "何を伝えればいいか分からなくて、ふわっとした答えになっちゃうこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、必要な情報が足りてないだけなんだよね。",
+      "screen_text": "原因は「情報不足」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「足りない情報があったら先に質問して」って添えること。",
+      "screen_text": "「先に質問して」と添える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "たとえば旅行の計画なら、予算や日数を向こうから聞いてくれるよ。",
+      "screen_text": "必要なことを聞いてくれる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "質問に答えていくだけで、自分にぴったりの答えに近づくの。",
+      "screen_text": "答えるだけでOK",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、全部自分で考えなくても、エーアイに聞いてもらえばいいの。ひとこと添えるだけで、ぐっと的確になるよ。",
+      "screen_text": "「質問して」でOK！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

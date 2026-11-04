@@ -1,0 +1,64 @@
+{
+  "video_slug": "step_by_step",
+  "video_title": "「順番に考えて」で答えが整う",
+  "caption": "込み入った質問をしたら、途中が飛んでて、よく分からない答えになったこと、ない？🤔\n\n実はそれ、いきなり結論だけ出そうとしているからなんです。\n\n📝 順番に考えてもらうコツ\n・「一つずつ順番に考えて」と添える\n・手順が多いことは、ステップごとに分けて出してくれる\n・途中の考え方が見えるから、どこが違うかも分かりやすい\n\n順番に考えてもらうだけで、込み入った話もすっきり整理されます🐾\n\n保存しておいて、次にAIに相談するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに「順番に考えて」って頼むと、答えが整うって知ってた？",
+      "screen_text": "順番に考えて\nもらう⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "込み入った質問をしたら、途中が飛んでて、よく分からない答えになったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、いきなり結論だけ出そうとしてるからなんだよね。",
+      "screen_text": "原因は「いきなり結論」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「一つずつ順番に考えて」って添えること。",
+      "screen_text": "「順番に考えて」と添える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "引っ越しの準備みたいに手順が多いことは、ステップごとに分けて出してくれるよ。",
+      "screen_text": "手順ごとに分けてくれる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "途中の考え方が見えるから、どこで違うかも分かりやすいの。",
+      "screen_text": "考え方が見える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、順番に考えてもらうだけで、込み入った話もすっきり整理されるの。",
+      "screen_text": "「順番に」でOK！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

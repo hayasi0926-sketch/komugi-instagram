@@ -1,0 +1,64 @@
+{
+  "video_slug": "summarize_tips",
+  "video_title": "要約は「誰向け・何文字」で頼む",
+  "caption": "「要約して」って頼んだのに、まだ長かったり、大事なところが抜けてたりしたこと、ない？📄\n\n実はそれ、どんな要約がほしいかを伝えてないだけなんです。\n\n📝 要約を頼むコツ\n・「三行で」と長さを決める\n・「中学生にも分かるように」と読む人を伝える\n・「締め切りと金額だけ抜き出して」と知りたいことを指定する\n\n長さと読む人をひとこと添えるだけで、要約がぐっと使いやすくなります🐾\n\n保存しておいて、次に要約を頼むときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "長い文章の要約、頼み方ひとつでぐっと読みやすくなるって知ってた？",
+      "screen_text": "要約にも\nコツがある⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "「要約して」って頼んだのに、まだ長かったり、大事なところが抜けてたりしたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、どんな要約がほしいかを伝えてないだけなんだよね。",
+      "screen_text": "原因は「要約の中身」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、長さを決めること。「三行で」って頼むだけで、ぎゅっと短くなるよ。",
+      "screen_text": "「三行で」と長さを決める",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「中学生にも分かるように」って、読む人を伝えるのも効果的。",
+      "screen_text": "読む人を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "「締め切りと金額だけ抜き出して」みたいに、知りたいことを指定するのも便利なの。",
+      "screen_text": "知りたいことを指定",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、長さと読む人をひとこと添えるだけで、要約がぐっと使いやすくなるの。",
+      "screen_text": "長さと相手を伝えるだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

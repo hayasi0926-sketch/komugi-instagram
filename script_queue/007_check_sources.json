@@ -1,0 +1,64 @@
+{
+  "video_slug": "check_sources",
+  "video_title": "出てきた情報は自分で確かめる",
+  "caption": "AIの答えをそのまま人に伝えて、あとで違ってたこと、ない？😳\n\n実はAIの答えには、古い情報や間違いがまざることがあるんです。\n\n📝 情報を確かめるコツ\n・お金や健康、手続きのような大事なことは公式サイトで確認\n・「どこで確かめればいい？」と調べ方を聞くのもおすすめ\n・日付や数字は、とくにもう一度見直す\n\nAIはきっかけ。最後は自分で確かめるのがいちばん安心です🐾\n\n保存しておいて、次にAIで調べものをするときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイが教えてくれた情報、そのまま信じて大丈夫？",
+      "screen_text": "その情報\n本当に合ってる⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイの答えをそのまま人に伝えて、あとで違ってたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイの答えには、古い情報や間違いがまざることがあるんだよね。",
+      "screen_text": "古い情報や間違いも",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、お金や健康、手続きみたいな大事なことは、公式のサイトで確かめること。",
+      "screen_text": "大事なことは公式で確認",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「どこで確かめればいい？」って聞くと、調べ方を教えてくれるよ。",
+      "screen_text": "調べ方を聞く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "日付や数字は、とくにもう一度見直してね。",
+      "screen_text": "日付や数字は見直す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイはきっかけ。最後は自分で確かめるのがいちばん安心なの。",
+      "screen_text": "最後は自分で確認！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

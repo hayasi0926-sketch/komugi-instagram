@@ -1,0 +1,64 @@
+{
+  "video_slug": "tone_request",
+  "video_title": "話し方を指定すると読みやすくなる",
+  "caption": "AIの答えがかたすぎたり、むずかしい言葉ばかりだったりしたこと、ない？🤔\n\n実はそれ、どんな話し方がいいかを伝えてないだけなんです。\n\n📝 話し方を指定するコツ\n・「やさしい言葉で」と頼む\n・「小学生にも分かるように」と頼むと、たとえ話で説明してくれる\n・「ていねいなビジネスの文章で」と頼むこともできる\n\n話し方をひとこと伝えるだけで、ぐっと読みやすい答えになります🐾\n\n保存しておいて、次にAIに質問するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイの答えって、話し方まで変えてもらえるって知ってた？",
+      "screen_text": "話し方も\n変えられる⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "答えがかたすぎたり、むずかしい言葉ばかりだったりしたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、どんな話し方がいいかを伝えてないだけなんだよね。",
+      "screen_text": "原因は「話し方」の指定",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「やさしい言葉で」って頼むこと。",
+      "screen_text": "「やさしい言葉で」",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「小学生にも分かるように」って頼むと、たとえ話で説明してくれるよ。",
+      "screen_text": "たとえ話で説明",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "逆に、「ていねいなビジネスの文章で」って頼むこともできるの。",
+      "screen_text": "ていねいな文章にも",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、話し方をひとこと伝えるだけで、ぐっと読みやすい答えになるの。",
+      "screen_text": "話し方を伝えるだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

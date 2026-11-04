@@ -1,0 +1,64 @@
+{
+  "video_slug": "say_dont_know",
+  "video_title": "「分からないなら分からないと言って」",
+  "caption": "AIが自信満々に答えたのに、あとで間違いだったこと、ない？😳\n\n実はAIは、分からないことでも答えを作ろうとしちゃうことがあるんです。\n\n📝 正直に答えてもらうコツ\n・「分からないときは、分からないと言ってね」と最初に伝える\n・「自信がないところは教えて」と頼むのもおすすめ\n・それでも大事なことは、自分でも確かめる\n\n無理に答えなくていいよ、と伝えるだけで、もっと正直に答えてくれやすくなります🐾\n\n保存しておいて、次にAIに質問するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに「分からないときは分からないって言って」と頼めるって知ってた？",
+      "screen_text": "分からないって\n言っていいよ⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイが自信満々に答えたのに、あとで間違いだったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、分からないことでも答えを作ろうとしちゃうことがあるんだよね。",
+      "screen_text": "原因は「答えようとしすぎ」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「分からないときは、分からないと言ってね」って最初に伝えること。",
+      "screen_text": "最初にひとこと伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「自信がないところは教えて」って頼むのもおすすめだよ。",
+      "screen_text": "自信のなさも聞く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "それでも大事なことは、自分でも確かめるようにしようね。",
+      "screen_text": "大事なことは確認",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、無理に答えなくていいよって伝えるだけで、もっと正直に答えてくれやすくなるの。",
+      "screen_text": "ひとこと伝えるだけでOK！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

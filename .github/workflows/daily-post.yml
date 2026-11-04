@@ -18,6 +18,41 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # ---- 1. 投稿できる動画が少なければ、台本(script_queue/)から動画を作る ----
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install FFmpeg and Japanese font
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk
+          pip install -q -r generator/requirements.txt
+
+      - name: Render videos from script queue
+        id: render
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_VOICE_ID: ${{ secrets.ELEVENLABS_VOICE_ID }}
+          ELEVENLABS_MODEL_ID: ${{ secrets.ELEVENLABS_MODEL_ID }}
+        run: python generator/render_next.py
+
+      - name: Commit rendered videos
+        run: |
+          git add videos posts/manifest.json script_queue
+          if git diff --cached --quiet; then
+            echo "新しく作った動画はありません"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Render reels from script queue (GitHub Actions)"
+          git pull --rebase
+          git push
+          # 直前にpushした動画が raw.githubusercontent.com から読めるまで少し待つ
+          sleep 60
+
+      # ---- 2. ready の中で一番若い1本を投稿する ----
       - uses: actions/setup-node@v4
         with:
           node-version: 22
@@ -41,4 +76,3 @@ jobs:
           git commit -m "Mark reel as posted (GitHub Actions)"
           git pull --rebase
           git push
-          

@@ -1,0 +1,64 @@
+{
+  "video_slug": "show_example",
+  "video_title": "お手本を見せると一発で伝わる",
+  "caption": "AIに一生懸命説明したのに、思ってたのと違う文章が返ってきたこと、ない？🤔\n\n実はそれ、言葉だけで伝えようとしすぎてるだけなんです。\n\n📝 お手本を見せるコツ\n・「こんな感じにしてほしい」という例を一つ見せる\n・「この文章みたいな雰囲気で」と貼り付けると口調まで合わせてくれる\n・自分が前に書いた文章をお手本にするのも効果的\n\n説明するより、見せるほうが早い。例を一つ添えるだけでぐっと思い通りになります🐾\n\n保存しておいて、次にAIにお願いするときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに「お手本」を見せるだけで、答えがぐっと近づくって知ってた？",
+      "screen_text": "お手本を\n見せるだけ⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "説明をがんばったのに、思ってたのと違う文章が返ってきたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、言葉だけで伝えようとしすぎてるだけなんだよね。",
+      "screen_text": "原因は「説明だけ」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、こんな感じにしてほしいっていう例を一つ見せること。",
+      "screen_text": "例を一つ見せる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「この文章みたいな雰囲気で」って貼り付けるだけで、口調まで合わせてくれるよ。",
+      "screen_text": "「この雰囲気で」",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "自分が前に書いた文章を見せるのも、すごく効果的なの。",
+      "screen_text": "自分の文章もお手本に",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、説明するより見せるほうが早いの。例を一つ添えるだけで、ぐっと思い通りになるよ。",
+      "screen_text": "例を添えるだけでOK！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

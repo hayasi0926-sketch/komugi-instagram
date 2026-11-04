@@ -1,0 +1,64 @@
+{
+  "video_slug": "new_chat",
+  "video_title": "話題が変わったら新しい会話で",
+  "caption": "同じ会話でいろんなことを聞いてたら、前の話が混ざった答えになったこと、ない？🤔\n\n実はそれ、前のやり取りの内容に引っぱられているからなんです。\n\n📝 会話を分けるコツ\n・まったく別の話をするときは、新しい会話を始める\n・仕事の相談と晩ごはんの相談は分けるとすっきり\n・続きの話をしたいときは、同じ会話のままでOK\n\n話題ごとに会話を分けるだけで、答えがぐっとすっきりします🐾\n\n保存しておいて、次にAIと話すときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "話題が変わったら、新しい会話を始めたほうがいいって知ってた？",
+      "screen_text": "新しい会話に\nした方がいい⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "同じ会話でいろんなことを聞いてたら、前の話が混ざった答えになったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、前のやり取りの内容に引っぱられてるからなんだよね。",
+      "screen_text": "原因は「前の話」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、まったく別の話をするときは、新しい会話を始めること。",
+      "screen_text": "別の話は新しい会話で",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "仕事の相談と晩ごはんの相談は、分けたほうがすっきりするよ。",
+      "screen_text": "相談ごとに分ける",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "続きの話をしたいときは、同じ会話のままでいいの。",
+      "screen_text": "続きの話はそのままでOK",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、話題ごとに会話を分けるだけで、答えがぐっとすっきりするの。",
+      "screen_text": "話題ごとに分けるだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

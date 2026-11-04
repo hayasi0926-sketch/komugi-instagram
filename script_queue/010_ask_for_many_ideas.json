@@ -1,0 +1,64 @@
+{
+  "video_slug": "ask_for_many_ideas",
+  "video_title": "アイデアは「たくさん」頼む",
+  "caption": "AIにアイデアを聞いたのに、ありきたりな答えしか出てこなかったこと、ない？💡\n\n実はそれ、少なく頼みすぎているだけなんです。\n\n📝 アイデアを出してもらうコツ\n・「十個出して」のように、数を多めに頼む\n・たくさん出してもらって、その中から自分で選ぶ\n・気に入ったものは「これをもっとふくらませて」と頼める\n\nまずはたくさん出してもらって、自分で選ぶ。それだけでアイデアがぐっと広がります🐾\n\n保存しておいて、次にアイデアに困ったときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "アイデアを考えてもらうときは、たくさん頼むのがコツって知ってた？",
+      "screen_text": "アイデアは\nたくさん頼む⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイにアイデアを聞いたのに、ありきたりな答えしか出てこなかったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、少なく頼みすぎてるだけなんだよね。",
+      "screen_text": "原因は「数が少ない」",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「十個出して」みたいに、数を多めに頼むこと。",
+      "screen_text": "「十個出して」と頼む",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "たくさん出してもらって、その中から自分で選ぶのがポイントだよ。",
+      "screen_text": "自分で選ぶ",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "気に入ったものがあったら、「これをもっとふくらませて」って頼めるの。",
+      "screen_text": "気に入ったら深掘り",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、まずはたくさん出してもらって、自分で選ぶのがコツ。それだけでアイデアがぐっと広がるの。",
+      "screen_text": "たくさん出して選ぶ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

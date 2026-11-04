@@ -1,0 +1,64 @@
+{
+  "video_slug": "check_numbers",
+  "video_title": "計算や数字は見直そう",
+  "caption": "AIに計算してもらったら、あとで数字がずれてたこと、ない？🔢\n\n実はAIは、文章は得意でも、数字をまちがえることがあるんです。\n\n📝 数字を確かめるコツ\n・お金や日付のような大事な数字は、自分でも計算し直す\n・「計算の途中も見せて」と頼むと、どこで違ったか分かりやすい\n・電卓やカレンダーでさっと確かめるだけでも安心\n\n数字はひと手間かけて確かめる。それだけでぐっと安心して使えます🐾\n\n保存しておいて、次にAIに計算を頼むときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイが出した数字、そのまま使って大丈夫？",
+      "screen_text": "その数字\n合ってる⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイに計算してもらったら、あとで数字がずれてたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、文章は得意でも、数字をまちがえることがあるんだよね。",
+      "screen_text": "数字のまちがいも",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、お金や日付みたいな大事な数字は、自分でも計算し直すこと。",
+      "screen_text": "大事な数字は計算し直す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "「計算の途中も見せて」って頼むと、どこで違ったか分かりやすいよ。",
+      "screen_text": "途中の計算も見せてもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "電卓やカレンダーでさっと確かめるだけでも安心なの。",
+      "screen_text": "電卓でさっと確認",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、数字はひと手間かけて確かめるのがコツ。それだけでぐっと安心して使えるの。",
+      "screen_text": "数字は確かめるだけ！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

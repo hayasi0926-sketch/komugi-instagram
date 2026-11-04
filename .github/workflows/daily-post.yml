@@ -23,13 +23,36 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Install FFmpeg and Japanese font
+      # 作る必要がある日だけ FFmpeg 等を入れる（インストールに時間がかかるため）
+      - name: Check if rendering is needed
+        id: need
         run: |
+          python - <<'PY' >> "$GITHUB_OUTPUT"
+          import glob, json
+          m = json.load(open("posts/manifest.json", encoding="utf-8"))
+          known = {p["slug"] for p in m["posts"]}
+          ready = sum(p["status"] == "ready" for p in m["posts"])
+          pending = [f for f in glob.glob("script_queue/*.json")
+                     if json.load(open(f, encoding="utf-8"))["video_slug"] not in known]
+          print("render=" + ("true" if ready < 2 and pending else "false"))
+          if ready == 0 and not pending:
+              import sys
+              print("::error::投稿できる動画も台本もありません。script_queue/ に台本を追加してください。", file=sys.stderr)
+              sys.exit(3)
+          PY
+
+      - name: Install FFmpeg and Japanese font
+        if: steps.need.outputs.render == 'true'
+        run: |
+          # man-db の索引更新を止めると apt が大幅に速くなる
+          sudo rm -f /var/lib/man-db/auto-update
+          echo 'set man-db/auto-update false' | sudo debconf-communicate >/dev/null 2>&1 || true
           sudo apt-get update -qq
-          sudo apt-get install -y -qq ffmpeg fonts-noto-cjk
+          sudo apt-get install -y -qq --no-install-recommends ffmpeg fonts-noto-cjk
           pip install -q -r generator/requirements.txt
 
       - name: Render videos from script queue
+        if: steps.need.outputs.render == 'true'
         id: render
         env:
           ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}

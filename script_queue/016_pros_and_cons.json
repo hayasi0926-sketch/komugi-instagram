@@ -1,0 +1,64 @@
+{
+  "video_slug": "pros_and_cons",
+  "video_title": "迷ったら「良い点と気になる点」を聞く",
+  "caption": "AIに「どっちがいい？」と聞いて、答えにモヤっとしたこと、ない？🤔\n\n実はそれ、良い点と気になる点を並べてもらうと、ぐっと選びやすくなるんです。\n\n📝 迷ったときの聞き方のコツ\n・「それぞれの良い点と気になる点を教えて」と頼む\n・自分の条件や大事にしたいことも一緒に伝える\n・最後に決めるのは自分。AIの答えは考える材料にする\n\n答えをもらうより、考えを整理してもらうのがおすすめです🐾\n\n保存しておいて、次に何かで迷ったときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "迷ったとき、エーアイに「どっちがいい？」って聞いてない？",
+      "screen_text": "どっちがいい？\nって聞いてない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイに選んでもらったけど、なんだかしっくりこなかったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、あなたが何を大事にしてるか、言われないと分からないんだよね。",
+      "screen_text": "大事なことは伝わってない",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「それぞれの良い点と気になる点を教えて」って頼むこと。",
+      "screen_text": "良い点と気になる点を聞く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "自分の条件や、大事にしたいことも一緒に伝えると、ぐっと考えやすくなるよ。",
+      "screen_text": "自分の条件も伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "そして最後に決めるのは自分。エーアイの答えは、考える材料にするの。",
+      "screen_text": "決めるのは自分",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、答えをもらうより、考えを整理してもらうのがコツなの。",
+      "screen_text": "考えを整理してもらう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

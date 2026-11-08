@@ -1,0 +1,64 @@
+{
+  "video_slug": "own_words",
+  "video_title": "送る前に自分の言葉に直す",
+  "caption": "AIが作った文章、そのまま送ろうとしてない？✉️\n\n実はAIの文章は、ていねいでも、あなたらしさが足りないことがあるんです。\n\n📝 送る前のひと手間のコツ\n・一度声に出して読んで、自分らしいか確かめる\n・名前や日にち、約束の内容がまちがっていないか見直す\n・言いたいことが伝わるか、相手の気持ちになって読む\n\nAIは下書き係。仕上げは自分の言葉でするのがおすすめです🐾\n\n保存しておいて、次にAIでメッセージを作るときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイが作った文章、そのまま送ろうとしてない？",
+      "screen_text": "そのまま\n送ってない⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイにメッセージを作ってもらって、そのまま送ったら、なんだかよそよそしかったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイの文章は、ていねいでも、あなたらしさが足りないことがあるんだよね。",
+      "screen_text": "あなたらしさが足りない",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、一度声に出して読んで、自分らしいか確かめること。",
+      "screen_text": "声に出して読んでみる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "名前や日にち、約束の内容がまちがっていないかも、必ず見直してね。",
+      "screen_text": "名前や日にちを見直す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "最後に、相手の気持ちになって読み返すと安心なの。",
+      "screen_text": "相手の気持ちで読む",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイは下書き係。仕上げは自分の言葉でするのがコツなの。",
+      "screen_text": "仕上げは自分の言葉で！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

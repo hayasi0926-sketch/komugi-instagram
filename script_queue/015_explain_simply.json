@@ -1,0 +1,64 @@
+{
+  "video_slug": "explain_simply",
+  "video_title": "難しい言葉は「やさしく」と頼む",
+  "caption": "AIの答えを読んだけど、言葉が難しくてよく分からなかったこと、ない？📖\n\n実はそれ、「やさしく説明して」とひとこと足すだけで変わるんです。\n\n📝 やさしく説明してもらうコツ\n・「中学生にも分かるように」と相手を決めて頼む\n・分からない言葉は「〇〇ってどういう意味？」と聞き返す\n・「身近なたとえで説明して」と頼む\n\n分からないままにしないで、何度でも聞いていいんです🐾\n\n保存しておいて、次にAIの答えが難しいと感じたときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイの答え、難しくて読むのをやめちゃったことない？",
+      "screen_text": "答えが\n難しすぎる⁉",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイに聞いてみたけど、知らない言葉ばかりで、よく分からなかったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はそれ、頼み方ひとつで、ぐっとやさしい説明に変えてもらえるんだよね。",
+      "screen_text": "頼み方で変わる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、「中学生にも分かるように説明して」って、相手を決めて頼むこと。",
+      "screen_text": "中学生にも分かるように",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "分からない言葉があったら、「それってどういう意味？」って聞き返していいんだよ。",
+      "screen_text": "分からない言葉は聞き返す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "「身近なたとえで説明して」って頼むと、すっと頭に入ってくるの。",
+      "screen_text": "身近なたとえで説明して",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、分からないままにしないで、やさしく言いかえてもらうのがコツなの。",
+      "screen_text": "やさしく言いかえてもらう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

@@ -26,6 +26,7 @@ KOMUGI_DISPLAY_W = 380  # こむぎ画像の表示幅(px)
 KOMUGI_MARGIN = 24  # 画面端からの余白(px)
 
 CENTER_TEXT_Y = 560
+CENTER_LINE_GAP = 40  # 1行ずつ描くときの行間（背景の箱が重ならない程度）
 CENTER_TEXT_FONTSIZE = 64
 
 SUBTITLE_FONTSIZE = 54
@@ -169,27 +170,31 @@ def compose_video(
     stage = 0
 
     # 中央テキスト（各ビートのscreen_text）
+    # 新しいFFmpeg（GitHub ActionsのUbuntu）では、テキスト中の改行が「☒」のような
+    # 文字化けとして描かれることがあるため、改行を使わず1行ずつ別々に描く。
+    line_pitch = int(CENTER_TEXT_FONTSIZE * 1.25) + CENTER_LINE_GAP
     for beat in beats:
         if not beat.screen_text:
             continue
-        stage += 1
-        txt_file = _write_text_file(
-            os.path.join(tmp_dir, f"center_{beat.id}.txt"), beat.screen_text
-        )
-        txt_escaped = _ffmpeg_path_escape(txt_file)
-        next_label = f"v{stage}"
-        filter_parts.append(
-            f"[{current_label}]drawtext="
-            f"fontfile='{font_escaped}':textfile='{txt_escaped}':"
-            f"fontsize={CENTER_TEXT_FONTSIZE}:fontcolor=white:"
-            f"borderw=5:bordercolor=black@0.7:"
-            f"box=1:boxcolor=black@0.30:boxborderw=24:"
-            f"line_spacing=16:"
-            f"x=(w-text_w)/2:y={CENTER_TEXT_Y}:"
-            f"enable='between(t,{beat.start:.3f},{beat.end:.3f})'"
-            f"[{next_label}]"
-        )
-        current_label = next_label
+        lines = [ln for ln in beat.screen_text.replace("\r", "").split("\n") if ln.strip()]
+        for li, line in enumerate(lines):
+            stage += 1
+            txt_file = _write_text_file(
+                os.path.join(tmp_dir, f"center_{beat.id}_{li}.txt"), line
+            )
+            txt_escaped = _ffmpeg_path_escape(txt_file)
+            next_label = f"v{stage}"
+            filter_parts.append(
+                f"[{current_label}]drawtext="
+                f"fontfile='{font_escaped}':textfile='{txt_escaped}':"
+                f"fontsize={CENTER_TEXT_FONTSIZE}:fontcolor=white:"
+                f"borderw=5:bordercolor=black@0.7:"
+                f"box=1:boxcolor=black@0.30:boxborderw=24:"
+                f"x=(w-text_w)/2:y={CENTER_TEXT_Y + li * line_pitch}:"
+                f"enable='between(t,{beat.start:.3f},{beat.end:.3f})'"
+                f"[{next_label}]"
+            )
+            current_label = next_label
 
     # 字幕（画面下部・自動生成）
     for idx, sub in enumerate(subtitles):

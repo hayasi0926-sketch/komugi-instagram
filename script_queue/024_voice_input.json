@@ -1,0 +1,64 @@
+{
+  "video_slug": "voice_input",
+  "video_title": "打つのが大変なら声で話しかける",
+  "caption": "AIに長いお願いを打つの、めんどうに感じてない？🎙️\n\n実はスマホの音声入力を使えば、話すだけで文字にできるんです。\n\n📝 声で頼むときのコツ\n・キーボードのマイクを押して、話しかける\n・言いたいことを思いつくまま話してOK\n・送る前に、文字がまちがっていないか確かめる\n\n話すほうが、くわしく伝えられることもあります🐾\n\n保存しておいて、次にAIにお願いするときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに長いお願いを打つの、めんどうに感じてない？",
+      "screen_text": "打つのが\nめんどう？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "くわしく伝えたいのに、文字を打つのが大変で、つい短くしちゃうこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はスマホの音声入力を使えば、話すだけで文字にできるんだよね。",
+      "screen_text": "話すだけで文字になる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、キーボードのマイクを押して、そのまま話しかけること。",
+      "screen_text": "マイクを押して話す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "言いたいことは、まとまっていなくても、思いつくままに話して大丈夫だよ。",
+      "screen_text": "思いつくままでいい",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "ただ、送る前に、文字がまちがっていないか確かめてね。",
+      "screen_text": "送る前に確かめる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、話すほうが、くわしく伝えられることもあるんだよ。",
+      "screen_text": "声で話しかけよう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

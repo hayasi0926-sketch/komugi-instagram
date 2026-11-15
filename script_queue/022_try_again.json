@@ -1,0 +1,64 @@
+{
+  "video_slug": "try_again",
+  "video_title": "答えがいまいちなら作り直してもらう",
+  "caption": "AIの答えがいまいちなとき、そこであきらめてない？🔁\n\n実はAIの答えは、頼むたびに少しずつ変わるんです。\n\n📝 作り直してもらうコツ\n・「別の案を出して」と頼んでみる\n・どこがいまいちだったかを一言そえる\n・いくつか比べて、良いところを組み合わせる\n\n一回目の答えがすべてじゃありません🐾\n\n保存しておいて、次にAIの答えに迷ったときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイの答えがいまいちなとき、そこであきらめてない？",
+      "screen_text": "いまいちで\nあきらめてない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "せっかく聞いたのに、なんだか物足りない答えが返ってきて、がっかりしたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイの答えは、頼むたびに少しずつ変わるんだよね。",
+      "screen_text": "答えは毎回ちがう",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、別の案を出して、って何度でも気軽に頼んでみること。",
+      "screen_text": "「別の案を出して」",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "どこがいまいちだったか、一言そえると、もっと近づくよ。",
+      "screen_text": "いまいちな所を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "いくつか比べて、良いところを組み合わせるのもおすすめなの。",
+      "screen_text": "良い所を組み合わせる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、一回目の答えがすべてじゃない、ってことなんだよ。",
+      "screen_text": "一回目がすべてじゃない！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

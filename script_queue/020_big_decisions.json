@@ -1,0 +1,64 @@
+{
+  "video_slug": "big_decisions",
+  "video_title": "大事なことはAIだけで決めない",
+  "caption": "大事なことまで、AIの答えだけで決めてない？⚠️\n\n実はAIは、あなたの事情をぜんぶ知っているわけではないんです。\n\n📝 大事な場面での使い方のコツ\n・AIは考えを整理する相手として使う\n・体のこと、お金や契約のことは専門家に相談する\n・最後に決めるのは自分、と覚えておく\n\nAIは頼れる相談相手。でも決めるのはあなたです🐾\n\n保存しておいて、次に大事なことを相談するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "大事なことまで、エーアイの答えだけで決めてない？",
+      "screen_text": "エーアイだけで\n決めてない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "エーアイに聞いたら、すごく自信ありそうに答えてくれて、そのまま信じちゃいそうになったこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、あなたの事情をぜんぶ知っているわけじゃないんだよね。",
+      "screen_text": "事情はぜんぶ知らない",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、エーアイを考えを整理する相手として使うこと。",
+      "screen_text": "考えの整理に使う",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "体のことや、お金や契約のことは、専門家にも相談してね。",
+      "screen_text": "専門家にも相談",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "そして、最後に決めるのは自分、って覚えておいてほしいの。",
+      "screen_text": "決めるのは自分",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイは頼れる相談相手。でも決めるのはあなたなんだよ。",
+      "screen_text": "相談相手として使おう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "video_slug": "one_at_a_time",
+  "video_title": "頼みごとは一つずつ",
+  "caption": "AIに、いろんなお願いを一度に詰め込んでない？📦\n\n実はそれ、どれかが抜けたり、中途半端な答えになりやすいんです。\n\n📝 頼みごとを分けるコツ\n・お願いは一回につき一つにする\n・答えを見てから、次のお願いをする\n・最後に「全部まとめて」と頼む\n\n一つずつ進めると、結局いちばん早く仕上がります🐾\n\n保存しておいて、次にAIにたくさん頼みたいときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに、いろんなお願いを一度に詰め込んでない？",
+      "screen_text": "一度に詰め込んで\nない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "文章を直して、短くして、題名も考えて、って頼んだら、どれかが抜けてたこと、ない？",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はお願いが多すぎると、どれかが抜けたり、中途半端になりやすいんだよね。",
+      "screen_text": "どれかが抜けやすい",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、お願いを一回につき一つにすること。",
+      "screen_text": "お願いは一回に一つ",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "ひとつ目の答えを見て、納得してから、次のお願いをしてね。",
+      "screen_text": "見てから次を頼む",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "最後に、全部まとめてって頼めば、きれいに仕上がるの。",
+      "screen_text": "最後に全部まとめる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、遠回りに見えても、一つずつ進めるのが、いちばんの近道なんだよ。",
+      "screen_text": "一つずつが近道！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

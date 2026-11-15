@@ -1,0 +1,64 @@
+{
+  "video_slug": "practice_partner",
+  "video_title": "話す練習の相手になってもらう",
+  "caption": "言いにくいことを伝える前、どう話すか迷ったことない？💬\n\n実はAIに相手役を頼むと、本番前に練習できるんです。\n\n📝 練習相手になってもらうコツ\n・「〇〇の役をして」と相手役を頼む\n・場面や相手の性格をくわしく伝える\n・終わったら「どこを直すといい？」と聞く\n\n練習しておくと、本番で落ち着いて話せます🐾\n\n保存しておいて、次に大事な話をする前の参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "言いにくいことを伝える前、どう話そうか迷ったこと、ない？",
+      "screen_text": "どう話すか\n迷ってない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "お誘いを断るときや、面接の前に、うまく話せるか不安になること、あるよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイに相手役を頼むと、本番の前に練習ができるんだよね。",
+      "screen_text": "本番前に練習できる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、たとえば面接官の役をして、って相手役を頼むこと。",
+      "screen_text": "相手役を頼む",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "どんな場面か、相手がどんな人かも、くわしく伝えてね。",
+      "screen_text": "場面と相手を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "終わったら、どこを直すといいか聞くと、もっと上手になるの。",
+      "screen_text": "直すところを聞く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイは、いつでも付き合ってくれる練習相手なんだよ。",
+      "screen_text": "練習相手にしよう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "video_slug": "packing_list",
+  "video_title": "持ち物リストを作ってもらう",
+  "caption": "お出かけの前に、忘れ物がないか心配になること、ない？🎒\n\n実はそれ、行き先や日数を伝えると、AIが持ち物リストを作ってくれるなんです。\n\n📝 持ち物リストを頼むときのコツ\n・行き先、日数、だれと行くかを伝える\n・「チェックできる形で」と頼むと使いやすい\n・自分だけに必要なものは、自分で書き足す\n\n準備の考えもれを減らすのに役立ちます🐾\n\n保存しておいて、次にお出かけの準備をするときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "旅行やお出かけの前に、忘れ物がないか心配になること、ない？",
+      "screen_text": "忘れ物\n心配じゃない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "いつも何かひとつ忘れて、出かけた先で困っちゃうこと、あるよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、エーアイに頼むと、持ち物リストを作ってくれるんだよね。",
+      "screen_text": "持ち物リストを作れる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、行き先や日数、それにだれと行くかも一緒に伝えること。",
+      "screen_text": "行き先と日数を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "チェックできる形で、と頼むと、準備しながら使いやすいよ。",
+      "screen_text": "チェックできる形で",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "いつもの薬など、自分だけに必要なものは自分で書き足してね。",
+      "screen_text": "自分の分は書き足す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイは、準備の考えもれを減らすお手伝いをしてくれるの。",
+      "screen_text": "準備がらくになる！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

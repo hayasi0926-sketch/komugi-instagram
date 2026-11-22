@@ -1,0 +1,64 @@
+{
+  "video_slug": "translate_help",
+  "video_title": "外国語の文を訳してもらう",
+  "caption": "外国語で書かれた説明やメッセージ、読めなくて困ったことない？🌏\n\n実はそれ、AIに貼りつけて「日本語にして」と頼むと訳してくれるなんです。\n\n📝 訳してもらうときのコツ\n・読めない文を貼りつけて「日本語にして」と頼む\n・返事を書くときは、相手との関係も伝える\n・大事な内容は、意味がずれていないか確かめる\n\n外国語へのハードルがぐっと下がります🐾\n\n保存しておいて、次に外国語の文に出会ったときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "外国語で書かれた説明やメッセージ、読めなくて困ったことない？",
+      "screen_text": "外国語\n読めない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "辞書でひとつずつ言葉を調べるのは、時間がかかってけっこう大変だよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、エーアイに頼むと、外国語の文を訳してくれるんだよね。",
+      "screen_text": "外国語を訳せる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、読めない文を貼りつけて、日本語にしてと頼むこと。",
+      "screen_text": "貼りつけて日本語に",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "返事を書くときは、相手が友だちか目上の人かも伝えてね。",
+      "screen_text": "相手との関係を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "ただ、大事な内容は、意味がずれていないか確かめてね。",
+      "screen_text": "大事なことは確かめる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、エーアイは、外国語に出会ったときの心強いお手伝いになってくれるの。",
+      "screen_text": "外国語もこわくない！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

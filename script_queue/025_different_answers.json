@@ -1,0 +1,64 @@
+{
+  "video_slug": "different_answers",
+  "video_title": "同じ質問でも答えは毎回ちがう",
+  "caption": "AIに同じことを聞いたのに、前と答えがちがってびっくりしたこと、ない？🤔\n\n実はそれ、AIのふつうの性質なんです。\n\n📝 答えがちがうときのコツ\n・答えが毎回少しちがうのは、こわれているわけじゃない\n・いくつか出してもらって、良いところを選ぶ\n・大事なことは、ほかの方法でも確かめる\n\n答えのちがいは、選べるチャンスだと思うのがおすすめです🐾\n\n保存しておいて、次にAIに質問するときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイに同じことを聞いたのに、前と答えがちがったこと、ない？",
+      "screen_text": "答えが\n前とちがう？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "どっちが正しいのか分からなくて、ちょっと不安になっちゃうよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実はエーアイは、同じ質問でも毎回少しちがう答えを出すものなんだよね。",
+      "screen_text": "毎回ちがうのがふつう",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "だから、こわれたのかなって心配しなくて大丈夫だよ。",
+      "screen_text": "こわれてないよ",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "いくつか答えを出してもらって、いいところを選ぶのもおすすめだよ。",
+      "screen_text": "いいところを選ぶ",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "ただ、大事なことは、ほかの方法でも確かめてね。",
+      "screen_text": "大事なことは確かめる",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、答えが毎回ちがうのはふつうのことで、むしろ選べるチャンスなんだよ。",
+      "screen_text": "ちがいは\n選べるチャンス！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

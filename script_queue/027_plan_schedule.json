@@ -1,0 +1,64 @@
+{
+  "video_slug": "plan_schedule",
+  "video_title": "予定の段取りを一緒に考えてもらう",
+  "caption": "やることが多い日、何から手をつけるか迷ってない？🗓️\n\n実はそれ、やることを書き出してAIに伝えると、段取りを一緒に考えてくれるなんです。\n\n📝 段取りを頼むときのコツ\n・やることを思いつくまま全部書き出す\n・使える時間や、決まっている予定も伝える\n・出てきた順番は、自分に合うように直す\n\n頭の中がすっきりすると、動きやすくなります🐾\n\n保存しておいて、次に忙しい一日の予定を立てるときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "やることが多い日、何から手をつけたらいいか迷ってない？",
+      "screen_text": "何から\nやればいい？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "頭の中がごちゃごちゃして、なかなか動けないこと、あるよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、やることをエーアイに伝えると、段取りを一緒に考えてくれるんだよね。",
+      "screen_text": "段取りを一緒に考える",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、やることを思いつくまま、全部書き出して伝えること。",
+      "screen_text": "やることを全部書く",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "使える時間や、もう決まっている予定も一緒に伝えてね。",
+      "screen_text": "使える時間も伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "出てきた順番は、自分に合うように直して大丈夫だよ。",
+      "screen_text": "自分に合わせて直す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、ごちゃごちゃした頭の中を、エーアイと一緒にすっきり整理できるの。",
+      "screen_text": "一緒に整理しよう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

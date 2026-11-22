@@ -1,0 +1,64 @@
+{
+  "video_slug": "quiz_me",
+  "video_title": "覚えたいことをクイズにしてもらう",
+  "caption": "覚えたいことがあるのに、読むだけだとなかなか頭に入らないこと、ない？📚\n\n実はそれ、AIに頼むと、覚えたいことをクイズにしてくれるなんです。\n\n📝 クイズを頼むときのコツ\n・覚えたい内容を貼りつけて「クイズにして」と頼む\n・「一問ずつ出して」と頼むと答えやすい\n・答え合わせのあとに、説明もしてもらう\n\nクイズにすると、楽しく覚えられます🐾\n\n保存しておいて、次に何かを覚えたいときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "覚えたいことがあるのに、なかなか頭に入らないこと、ない？",
+      "screen_text": "なかなか\n覚えられない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "何回読んでも、時間がたつと忘れちゃうこと、あるよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、エーアイに頼むと、覚えたいことをクイズにしてくれるんだよね。",
+      "screen_text": "クイズにしてくれる",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、覚えたい内容を貼りつけて、クイズにしてと頼むこと。",
+      "screen_text": "貼りつけてクイズに",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "一問ずつ出して、と頼むと、自分のペースでゆっくり答えられるよ。",
+      "screen_text": "一問ずつ出してもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "答え合わせのあとに、説明もしてもらうと、もっと覚えやすいよ。",
+      "screen_text": "説明もしてもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、読むだけじゃなくクイズにすると、楽しく覚えられるんだよね。",
+      "screen_text": "楽しく覚えよう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

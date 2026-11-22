@@ -1,0 +1,64 @@
+{
+  "video_slug": "continue_request",
+  "video_title": "答えが途中で切れたら「続けて」",
+  "caption": "AIの答えが、途中でぷつっと終わっちゃったこと、ない？✂️\n\n実はそれ、「続けて」と送るだけで続きを書いてくれることが多いなんです。\n\n📝 途中で切れたときのコツ\n・「続けて」とひとこと送ってみる\n・長くなりそうなら「何回かに分けて」と頼む\n・つながりがおかしくないか、最後に読み返す\n\nあわてて最初から聞き直さなくても大丈夫です🐾\n\n保存しておいて、次にAIに長い文章を頼むときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "エーアイの答えが、途中でぷつっと終わっちゃったこと、ない？",
+      "screen_text": "途中で\n終わっちゃった？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "最初から聞き直したほうがいいのかなって、迷っちゃうよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、続けてってひとこと送るだけで、続きを書いてくれることが多いんだよね。",
+      "screen_text": "続けてと送るだけ",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "たとえば、さっきの続きからお願い、と送ってみてね。",
+      "screen_text": "さっきの続きをお願い",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "長くなりそうなときは、何回かに分けてと先に頼むのもいいよ。",
+      "screen_text": "何回かに分けて頼む",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "最後に、つながりがおかしくないか読み返してね。",
+      "screen_text": "つながりを読み返す",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、答えが途中で切れても、あわてて最初から聞き直さなくて大丈夫なの。",
+      "screen_text": "続けてで\n解決！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}

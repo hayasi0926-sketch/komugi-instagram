@@ -1,0 +1,64 @@
+{
+  "video_slug": "polite_refusal",
+  "video_title": "言いにくいことの伝え方を相談する",
+  "caption": "お誘いを断りたいけど、どう伝えればいいか悩むこと、ない？💬\n\n実はそれ、AIに状況を伝えると、角が立ちにくい言い方を一緒に考えてくれるなんです。\n\n📝 言いにくいことを相談するコツ\n・相手との関係や、どう思われたいかを伝える\n・やわらかめ、はっきりめなど、いくつか出してもらう\n・名前など、相手が分かる情報は入れない\n\n最後は自分の気持ちに合う言葉を選ぶのがおすすめです🐾\n\n保存しておいて、次に伝え方に迷ったときの参考にしてね！",
+  "hashtags": "#AI活用術 #ChatGPT活用 #プロンプトのコツ #こむぎ #いぬすたぐらむ",
+  "script": [
+    {
+      "id": "hook",
+      "section": "hook",
+      "narration": "お誘いを断りたいけど、どう伝えればいいか悩むこと、ない？",
+      "screen_text": "断り方に\n悩んでない？",
+      "bg_color": "0xFF6F61"
+    },
+    {
+      "id": "problem_1",
+      "section": "problem",
+      "narration": "相手を傷つけたくなくて、返事を書けないまま時間がたっちゃうよね。",
+      "screen_text": null,
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "problem_2",
+      "section": "problem",
+      "narration": "実は、エーアイに相談すると、伝え方を一緒に考えてくれるんだよね。",
+      "screen_text": "伝え方を一緒に考える",
+      "bg_color": "0x4A90D9"
+    },
+    {
+      "id": "example_1",
+      "section": "example",
+      "narration": "コツは、相手との関係や、どう思われたいかを伝えること。",
+      "screen_text": "相手との関係を伝える",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_2",
+      "section": "example",
+      "narration": "やわらかめ、はっきりめなど、いくつか出してもらうのもいいよ。",
+      "screen_text": "いくつか出してもらう",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "example_3",
+      "section": "example",
+      "narration": "ただ、相手の名前など、だれのことか分かる情報は入れないようにしてね。",
+      "screen_text": "名前は入れない",
+      "bg_color": "0x3FB68A"
+    },
+    {
+      "id": "conclusion",
+      "section": "conclusion",
+      "narration": "つまり、言いにくいことも、エーアイと一緒なら考えやすいの。",
+      "screen_text": "一緒に考えよう！",
+      "bg_color": "0x8B6FD9"
+    },
+    {
+      "id": "cta",
+      "section": "cta",
+      "narration": "今日から使えるから、忘れないうちに保存しといてね！",
+      "screen_text": "保存して\n後で見返してね",
+      "bg_color": "0xFF6F61"
+    }
+  ]
+}
